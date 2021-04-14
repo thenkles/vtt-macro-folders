@@ -1,5 +1,5 @@
 mode: Mainline
 branches:
   main:
-    regex: ^main$
+    regex: ^master$
     is-release-branch: true
