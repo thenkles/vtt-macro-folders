@@ -1357,4 +1357,6 @@ Hooks.on('ready',async function(){
         Hooks.call('addExportButtonsForCF')
     }
     await initFolders(false);
+
+    Hooks.callAll('macroFoldersReady');
 });
